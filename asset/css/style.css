@@ -5409,6 +5409,26 @@ html {
 .btn-whatsapp {
   width: 120px;
   padding: 5px;
-  margin-left: 10px;
+  margin-left: 30px;
   border-radius: 5px;
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .btn-whatsapp {
+    margin-bottom: 10px;
+  }
+}
+
+.whatsapp-launcher {
+  position: fixed;
+  z-index: 10000;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #28a745;
+  cursor: pointer;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06), 0 2px 32px 0 rgba(0, 0, 0, 0.16);
 }

@@ -36,7 +36,7 @@
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="#"> 
                             <h1>
-                                <img src="<?= base_url() ?>asset/img/icon/logo_1.png" style="max-width: 8%;" alt="#"> PROMEDIK
+                                <img src="<?= base_url() ?>asset/img/icon/logo_1.png" style="max-width: 40px;" alt="#"> PROMEDIK
                             </h1> 
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -59,15 +59,18 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#contact_part">Kontak</a>
                                 </li>
+                                <li>
+                        			<a class="btn-success btn-whatsapp" href="https://wa.me/6285235060891" target="_blank"><img src="<?= base_url() ?>asset/img/icon/whatsapp.svg" style="width: 30px"> Whatsapp</a>
+                                </li>
                             </ul>
                         </div>
-                        <a class="btn-success btn-whatsapp" href="https://wa.me/6285235060891" target="_blank"><img src="<?= base_url() ?>asset/img/icon/whatsapp.svg" style="width: 30px"> Whatsapp</a>
                     </nav>
                 </div>
             </div>
         </div>
     </header>
     <!-- Header part end-->
+     <a class="btn-success whatsapp-launcher" data-toggle="tooltip" title="Hubungi kami via Whatsapp" href="https://wa.me/6285235060891" target="_blank"><img style="margin: 5px 0 0 5px; display: block; width: 50px;" src="<?= base_url() ?>asset/img/icon/whatsapp.svg"></a> 
 
     <!-- banner part start-->
     <section class="banner_part">
