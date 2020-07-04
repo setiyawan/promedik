@@ -304,7 +304,7 @@
                             <form
                                 action="subscription/add"
                                 method="post" class="form-inline">
-                                <input class="form-control" name="email	" placeholder="Masukkan email kamu"
+                                <input class="form-control" name="email" placeholder="Masukkan email kamu"
                                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'Masukkan email kamu '"
                                     required="" type="email">
                                 <button class="click-btn btn btn-default text-uppercase"> <i class="ti-angle-right"></i>
