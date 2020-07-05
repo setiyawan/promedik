@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="Rekam medis elektronik yang dapat menunjang aktivitas klinik kamu secara mudah, aman dan dapat diakses kapan saja. Mulai dari pencatan pasien, memantau riwayat rekam medis dan manajemen stok obat">
-	<meta name="keywords" content="rekam medis, medical record, klinik online, e-klinik">
+	<meta name="keywords" content="rekam medis, rekam medis elektronik, medical record, klinik online, e-klinik">
 	<meta name="robots" content="follow, index">
 	<meta name="title" content="Rekam Medis Elektronik Mudah dan Aman - Promedik">
 	<title>Rekam Medis Elektronik Mudah dan Aman - Promedik</title>
