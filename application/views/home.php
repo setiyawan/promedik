@@ -9,6 +9,20 @@
 	<meta name="keywords" content="rekam medis, rekam medis elektronik, medical record, klinik online, e-klinik">
 	<meta name="robots" content="follow, index">
 	<meta name="title" content="Rekam Medis Elektronik Mudah dan Aman - Promedik">
+
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="<?= base_url() ?>asset/img/icon/logo_1.png">
+    <meta property="og:title" content="Rekam Medis Elektronik Mudah dan Aman - Promedik">
+    <meta property="og:description" content="Rekam medis elektronik untuk menunjang aktivitas klinik kamu secara mudah, aman dan dapat diakses kapan saja. Coba gratis sekarang!">
+    <meta property="og:site_name" content="Promedik">
+    <meta property="og:url" content="<?= base_url() ?>">
+
+
+	<meta name="twitter:card" content="summary_large_image"> 
+	<meta name="twitter:image" content="<?= base_url() ?>asset/img/icon/logo_1.png"> 
+	<meta name="twitter:title" content="Rekam Medis Elektronik Mudah dan Aman - Promedik"> 
+	<meta name="twitter:description" content="Rekam medis elektronik untuk menunjang aktivitas klinik kamu secara mudah, aman dan dapat diakses kapan saja. Coba gratis sekarang!"> 
+
 	<title>Rekam Medis Elektronik Mudah dan Aman - Promedik</title>
 	<link rel="icon" href="<?= base_url() ?>asset/img/icon/logo_1.png">
 	<!-- Bootstrap CSS -->
@@ -26,10 +40,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="<?=base_url()?>"> 
-                            <h1>
-                                <img src="<?= base_url() ?>asset/img/icon/logo_1.png" style="max-width: 40px;" alt=""> PROMEDIK
-                            </h1> 
+                        <a class="navbar-brand" href="<?=base_url()?>" style="font-weight: 500; font-size: 32px"> 
+                        	<img src="<?= base_url() ?>asset/img/icon/logo_1.png" style="max-width: 40px;" alt="logo"> PROMEDIK
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -81,7 +93,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="banner_img">
-                        <img src="<?= base_url() ?>asset/img/banner_img.png" alt="">
+                        <img src="<?= base_url() ?>asset/img/banner_img.png" alt="banner">
                     </div>
                 </div>
             </div>
@@ -95,7 +107,7 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-6 col-lg-6">
                     <div class="about_us_img">
-                        <img src="<?= base_url() ?>asset/img/ability_img.png" alt="">
+                        <img src="<?= base_url() ?>asset/img/ability_img.png" alt="ability">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6">
@@ -106,15 +118,15 @@
                         <br>
                         <div class="banner_item">
                             <div class="single_item">
-                                <img src="<?= base_url() ?>asset/img/icon/banner_1.png" alt="">
+                                <img src="<?= base_url() ?>asset/img/icon/banner_1.png" alt="secure">
                                 <h5>Kemanan Data</h5>
                             </div>
                             <div class="single_item">
-                                <img src="<?= base_url() ?>asset/img/icon/banner_2.png" alt="">
+                                <img src="<?= base_url() ?>asset/img/icon/banner_2.png" alt="easy">
                                 <h5>Mudah Digunakan</h5>
                             </div>
                             <div class="single_item">
-                                <img src="<?= base_url() ?>asset/img/icon/banner_3.png" alt="">
+                                <img src="<?= base_url() ?>asset/img/icon/banner_3.png" alt="digital">
                                 <h5>Berbasis Digital</h5>
                             </div>
                         </div>
@@ -139,14 +151,14 @@
                 <div class="col-lg-4 col-sm-12">
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <span class="single_feature_icon"><img src="<?= base_url() ?>asset/img/icon/feature_1.png" alt=""></span>
+                            <span class="single_feature_icon"><img src="<?= base_url() ?>asset/img/icon/feature_1.png" alt="1"></span>
                             <h4>Manajemen Data Pasien</h4>
                             <p>Berisi data pribadi pasien mulai dari nama, pekerjaan, golongan darah hingga alamat rumah dengan menerapkan prinsip kerahasiaan data</p>
                         </div>
                     </div>
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <span class="single_feature_icon"><img src="<?= base_url() ?>asset/img/icon/feature_2.png" alt=""></span>
+                            <span class="single_feature_icon"><img src="<?= base_url() ?>asset/img/icon/feature_2.png" alt="2"></span>
                             <h4>Stok Obat</h4>
                             <p>Tidak perlu khawatir dalam manajemen obat, karena stok sudah otomatis terupdate. Bahkan kamu bisa memantau obat kadaluarsa</p>
                         </div>
@@ -154,20 +166,20 @@
                 </div>
                 <div class="col-lg-4 col-sm-12">
                         <div class="single_feature_img">
-                            <img src="<?= base_url() ?>asset/img/service.png" alt="">
+                            <img src="<?= base_url() ?>asset/img/service.png" alt="3">
                         </div>
                 </div>
                 <div class="col-lg-4 col-sm-12">
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <span class="single_feature_icon"><img src="<?= base_url() ?>asset/img/icon/feature_3.png" alt=""></span>
+                            <span class="single_feature_icon"><img src="<?= base_url() ?>asset/img/icon/feature_3.png" alt="4"></span>
                             <h4>Riwayat Rekam Medis</h4>
                             <p>Simple, lengkap dan sesuai dengan kaidah SOAP <i>(subjective, objective, assesment, planing)</i> dalam pencatatan rekam medis </p>
                         </div>
                     </div>
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <span class="single_feature_icon"><img src="<?= base_url() ?>asset/img/icon/feature_4.png" alt=""></span>
+                            <span class="single_feature_icon"><img src="<?= base_url() ?>asset/img/icon/feature_4.png" alt="5"></span>
                             <h4>Laporan Berkala</h4>
                             <p>Promedik mempunyai dashboard yang dapat memantau aktifitas klinik baik dalam periode mingguan maupun bulanan</p>
                         </div>
@@ -257,7 +269,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6">
                     <div class="reservation_img">
-                        <img src="<?= base_url() ?>asset/img/reservation.png" alt="" class="reservation_img_iner">
+                        <img src="<?= base_url() ?>asset/img/reservation.png" alt="reservation" class="reservation_img_iner">
                     </div>
                 </div>
             </div>
