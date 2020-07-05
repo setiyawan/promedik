@@ -279,7 +279,7 @@
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-xl-2 col-md-4 col-sm-6 single-footer-widget">
-                        <h4> <img src="<?= base_url() ?>asset/img/icon/logo_1.png" style="max-width: 20%;" alt="#"> PROMEDIK</h4>
+                        <h4> <img src="<?= base_url() ?>asset/img/icon/logo_1.png" style="max-width: 40px;" alt="#"> PROMEDIK</h4>
                         <p>Layanan rekam medis elektronik yang mudah & aman</p>
                     </div>
                     <div class="col-xl-2 col-sm-6 col-md-4 single-footer-widget">
