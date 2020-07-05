@@ -1,37 +1,7 @@
 <!doctype html>
 <html lang="id">
 
-<head>
-    <!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Rekam medis elektronik untuk menunjang aktivitas klinik kamu secara mudah, aman dan dapat diakses kapan saja. Coba gratis sekarang!">
-	<meta name="keywords" content="rekam medis, rekam medis elektronik, medical record, klinik online, e-klinik">
-	<meta name="robots" content="follow, index">
-	<meta name="title" content="Rekam Medis Elektronik Mudah dan Aman - Promedik">
-
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="<?= base_url() ?>asset/img/icon/logo_1.png">
-    <meta property="og:title" content="Rekam Medis Elektronik Mudah dan Aman - Promedik">
-    <meta property="og:description" content="Rekam medis elektronik untuk menunjang aktivitas klinik kamu secara mudah, aman dan dapat diakses kapan saja. Coba gratis sekarang!">
-    <meta property="og:site_name" content="Promedik">
-    <meta property="og:url" content="<?= base_url() ?>">
-
-
-	<meta name="twitter:card" content="summary_large_image"> 
-	<meta name="twitter:image" content="<?= base_url() ?>asset/img/icon/logo_1.png"> 
-	<meta name="twitter:title" content="Rekam Medis Elektronik Mudah dan Aman - Promedik"> 
-	<meta name="twitter:description" content="Rekam medis elektronik untuk menunjang aktivitas klinik kamu secara mudah, aman dan dapat diakses kapan saja. Coba gratis sekarang!"> 
-
-	<title>Rekam Medis Elektronik Mudah dan Aman - Promedik</title>
-	<link rel="icon" href="<?= base_url() ?>asset/img/icon/logo_1.png">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="<?= base_url() ?>asset/css/bootstrap.min.css">
-	<!-- themify CSS -->
-	<link rel="stylesheet" href="<?= base_url() ?>asset/css/themify-icons.css">
-	<!-- style CSS -->
-	<link rel="stylesheet" href="<?= base_url() ?>asset/css/style.css">
-</head>
+<?php $this->view('header'); ?>
 
 <body>
     <!--::header part start::-->
@@ -278,66 +248,9 @@
     <!--::contact_part end::-->
 
     <!-- footer part start-->
-    <footer class="footer-area">
-        <div class="footer section_padding">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-xl-2 col-md-4 col-sm-6 single-footer-widget">
-                        <h4> <img src="<?= base_url() ?>asset/img/icon/logo_1.png" style="max-width: 40px;" alt="#"> PROMEDIK</h4>
-                        <p>Layanan rekam medis elektronik yang mudah & aman</p>
-                    </div>
-                    <div class="col-xl-2 col-sm-6 col-md-4 single-footer-widget">
-                        <h4>Link Cepat</h4>
-                        <ul>
-                            <li><a href="#about_us">Tentang Kami</a></li>
-                            <li><a href="#feature">Layanan</a></li>
-                            <li><a href="#product">Produk</a></li>
-                            <li><a href="#contact_us">Kontak</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-2 col-sm-6 col-md-4 single-footer-widget">
-                        <h4>Fitur Utama</h4>
-                        <ul>
-                            <li><a>Manajemen Data Pasien</a></li>
-                            <li><a>Riwayat Rekam Medis</a></li>
-                            <li><a>Stok Obat</a></li>
-                            <li><a>Laporan Berkala</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-3 col-sm-6 col-md-6 single-footer-widget">
-                        <h4>Berlangganan</h4>
-                        <p>Jadilah orang pertama yang akan mencoba fitur terbaru kami</p>
-                        <div class="form-wrap" id="mc_embed_signup">
-                            <form
-                                action="subscription/add"
-                                method="post" class="form-inline">
-                                <input class="form-control" name="email" placeholder="Masukkan email kamu"
-                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Masukkan email kamu '"
-                                    required="" type="email">
-                                <button class="click-btn btn btn-default text-uppercase"> <i class="ti-angle-right"></i>
-                                </button>
-                                <div style="position: absolute; left: -5000px;">
-                                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value=""
-                                        type="text">
-                                </div>
-
-                                <div class="info"></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+	<?php $this->view('footer'); ?>
 
     <!-- footer part end-->
-    <script src="<?= base_url()?>asset/js/jquery-1.12.1.min.js"></script>
-
-    <script src="<?= base_url()?>asset/js/bootstrap.min.js"></script>
-
-    <script src="<?= base_url()?>asset/js/custom.js"></script>
-
-    <!-- jquery plugins here-->
 </body>
 
 </html>

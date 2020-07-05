@@ -5150,11 +5150,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .breadcrumb_bg {
-  background-image: url("../img/breadcrumb.png");
+  /*background-image: url("../img/breadcrumb.png");*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-size: inherit;
+  background-color: #00bcd4;
 }
 
 .breadcrumb_part {
