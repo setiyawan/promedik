@@ -3,28 +3,20 @@
 
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Promedik | Rekam Medis Elektronik | Digital Rekam Medis</title>
-    <link rel="icon" href="<?= base_url() ?>asset/img/icon/logo_1.png">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?= base_url() ?>asset/css/bootstrap.min.css">
-    <!-- animate CSS -->
-    <link rel="stylesheet" href="<?= base_url() ?>asset/css/animate.css">
-    <!-- owl carousel CSS -->
-    <link rel="stylesheet" href="<?= base_url() ?>asset/css/owl.carousel.min.css">
-    <!-- themify CSS -->
-    <link rel="stylesheet" href="<?= base_url() ?>asset/css/themify-icons.css">
-    <!-- flaticon CSS -->
-    <link rel="stylesheet" href="<?= base_url() ?>asset/css/flaticon.css">
-    <!-- magnific popup CSS -->
-    <link rel="stylesheet" href="<?= base_url() ?>asset/css/magnific-popup.css">
-    <!-- nice select CSS -->
-    <link rel="stylesheet" href="<?= base_url() ?>asset/css/nice-select.css">
-    <!-- swiper CSS -->
-    <link rel="stylesheet" href="<?= base_url() ?>asset/css/slick.css">
-    <!-- style CSS -->
-    <link rel="stylesheet" href="<?= base_url() ?>asset/css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Rekam medis elektronik yang dapat menunjang aktivitas klinik kamu secara mudah, aman dan dapat diakses kapan saja. Mulai dari pencatan pasien, memantau riwayat rekam medis dan manajemen stok obat">
+	<meta name="keywords" content="rekam medis, medical record, klinik online, e-klinik">
+	<meta name="robots" content="follow, index">
+	<meta name="title" content="Rekam Medis Elektronik Mudah dan Aman - Promedik">
+	<title>Rekam Medis Elektronik Mudah dan Aman - Promedik</title>
+	<link rel="icon" href="<?= base_url() ?>asset/img/icon/logo_1.png">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="<?= base_url() ?>asset/css/bootstrap.min.css">
+	<!-- themify CSS -->
+	<link rel="stylesheet" href="<?= base_url() ?>asset/css/themify-icons.css">
+	<!-- style CSS -->
+	<link rel="stylesheet" href="<?= base_url() ?>asset/css/style.css">
 </head>
 
 <body>
@@ -34,9 +26,9 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="#"> 
+                        <a class="navbar-brand" href="<?=base_url()?>"> 
                             <h1>
-                                <img src="<?= base_url() ?>asset/img/icon/logo_1.png" style="max-width: 40px;" alt="#"> PROMEDIK
+                                <img src="<?= base_url() ?>asset/img/icon/logo_1.png" style="max-width: 40px;" alt=""> PROMEDIK
                             </h1> 
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
