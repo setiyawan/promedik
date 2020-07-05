@@ -28,7 +28,8 @@ class My404 extends My_Controller {
     }
     
     public function index() {
-      $this->load->view('errors/html/override_404');
+        $this->output->set_status_header('404');
+        $this->load->view('errors/html/override_404');
     }
 
 }
