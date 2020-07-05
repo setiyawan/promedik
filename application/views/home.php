@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Rekam medis elektronik yang dapat menunjang aktivitas klinik kamu secara mudah, aman dan dapat diakses kapan saja. Mulai dari pencatan pasien, memantau riwayat rekam medis dan manajemen stok obat">
+	<meta name="description" content="Rekam medis elektronik untuk menunjang aktivitas klinik kamu secara mudah, aman dan dapat diakses kapan saja. Coba gratis sekarang!">
 	<meta name="keywords" content="rekam medis, rekam medis elektronik, medical record, klinik online, e-klinik">
 	<meta name="robots" content="follow, index">
 	<meta name="title" content="Rekam Medis Elektronik Mudah dan Aman - Promedik">
@@ -46,10 +46,10 @@
                                     <a class="nav-link" href="#about_us">Tentang</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#feature_part">Layanan</a>
+                                    <a class="nav-link" href="#feature">Layanan</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#contact_part">Kontak</a>
+                                    <a class="nav-link" href="#contact_us">Kontak</a>
                                 </li>
                                 <li>
                         			<a class="btn-success btn-whatsapp" href="https://wa.me/6285235060891" target="_blank"><img src="<?= base_url() ?>asset/img/icon/whatsapp.svg" style="width: 30px" alt="wa"> Whatsapp</a>
@@ -126,7 +126,7 @@
     <!-- about us part end-->
 
     <!-- feature_part start-->
-    <section class="feature_part padding_top" id="feature_part">
+    <section class="feature_part padding_top" id="feature">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -179,7 +179,7 @@
     <!-- feature_part start-->
 
     <!-- Gallery -->
-    <section class="gallery_part" id="gallery_part">
+    <section class="gallery_part" id="product">
         <div class="container">
             <div class="section-top-border">
                 <h3>Snapshot</h3>
@@ -223,7 +223,7 @@
 	    $alert = $this->session->flashdata('alert');
 	?>
     <!--::contact_part start::-->
-    <section class="contact_part section_padding" id="contact_part">
+    <section class="contact_part section_padding" id="contact_us">
         <div class="container">
             <div class="row align-items-center regervation_content">
                 <div class="col-lg-7">
@@ -278,9 +278,9 @@
                         <h4>Link Cepat</h4>
                         <ul>
                             <li><a href="#about_us">Tentang Kami</a></li>
-                            <li><a href="#feature_part">Layanan</a></li>
-                            <li><a href="#gallery_part">Produk</a></li>
-                            <li><a href="#contact_part">Kontak</a></li>
+                            <li><a href="#feature">Layanan</a></li>
+                            <li><a href="#product">Produk</a></li>
+                            <li><a href="#contact_us">Kontak</a></li>
                         </ul>
                     </div>
                     <div class="col-xl-2 col-sm-6 col-md-4 single-footer-widget">
