@@ -1,5 +1,5 @@
 User-Agent: *
 Disallow: 
 
-Sitemap: https://promedik.id/sitemap.xml
+Sitemap: https://www.promedik.id/sitemap.xml
 
