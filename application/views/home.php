@@ -309,7 +309,7 @@
 
             </div>
 
-            <div class="collapsible_title" data-toggle="collapse" data-target="#collapse-7">Pemasangan RME di Promdik.id</div>
+            <div class="collapsible_title" data-toggle="collapse" data-target="#collapse-7">Pemasangan RME di Promedik.id</div>
             <div class="collapsible_content collapse" id="collapse-7">
                 <p>Seperti yang sudah dijelaskan diatas, penggunaan RME di Promedik sangatlah mudah dan aman. Berikut langkah-langkahnya<br>
                 1) Pengguna cukup melakukan registrasi ke Promedik <br>
