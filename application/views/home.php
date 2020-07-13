@@ -167,33 +167,33 @@
                 <h3>Snapshot</h3>
                 <div class="row gallery-item">
                     <div class="col-md-6">
-                        <a href="<?= base_url() ?>asset/img/product/2.png" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(<?= base_url() ?>asset/img/product/2.png);"></div>
+                        <a href="<?= base_url() ?>asset/img/product/patient_detail.png" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(<?= base_url() ?>asset/img/product/patient_detail.png);"></div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="<?= base_url() ?>asset/img/product/3.png" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(<?= base_url() ?>asset/img/product/3.png);"></div>
+                        <a href="<?= base_url() ?>asset/img/product/patient_list.png" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(<?= base_url() ?>asset/img/product/patient_list.png);"></div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="<?= base_url() ?>asset/img/product/4.png" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(<?= base_url() ?>asset/img/product/4.png);"></div>
+                        <a href="<?= base_url() ?>asset/img/product/medical_record_detail.png" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(<?= base_url() ?>asset/img/product/medical_record_detail.png);"></div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="<?= base_url() ?>asset/img/product/5.png" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(<?= base_url() ?>asset/img/product/5.png);"></div>
+                        <a href="<?= base_url() ?>asset/img/product/medical_record_list.png" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(<?= base_url() ?>asset/img/product/medical_record_list.png);"></div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="<?= base_url() ?>asset/img/product/6.png" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(<?= base_url() ?>asset/img/product/6.png);"></div>
+                        <a href="<?= base_url() ?>asset/img/product/medicine_detail.png" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(<?= base_url() ?>asset/img/product/medicine_detail.png);"></div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="<?= base_url() ?>asset/img/product/7.png" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(<?= base_url() ?>asset/img/product/7.png);"></div>
+                        <a href="<?= base_url() ?>asset/img/product/medicine_list.png" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(<?= base_url() ?>asset/img/product/medicine_list.png);"></div>
                         </a>
                     </div>
                 </div>
@@ -246,6 +246,91 @@
         </div>
     </section>
     <!--::contact_part end::-->
+
+    <section class="container">
+        <div class="qna-area">
+            <div class="collapsible_title" data-toggle="collapse" data-target="#collapse-1">Apa itu Rekam Medis?</div>
+            <div class="collapsible_content collapse" id="collapse-1">
+                <p>Dalam artian sederhana rekam medis adalah catatan dan dokumen yang berisi tentang kondisi keadaan pasien, tetapi jika dikaji lebih mendalam rekam medis mempunyai makna yang Iebih kompleks tidak hanya catatan biasa, karena didalam catatan tersebut sudah tercermin segala informasi menyangkut seorang pasien yang akan dijadikan dasar didalam menentukan tindakan Iebih lanjut dalam upaya pelayanan maupun tindakan medis Iainnya yang diberikan kepada seorang pasien yang datang ke rumah sakit.
+                <br>
+                Menurut PERMENKES No: 269/MENKES/PER/III/2008 Tentang Rekam Medis, Rekam Medis adalah berkas yang berisikan catatan dan dokumen tentang identitas pasien, pemeriksaan, pengobatan, tindakan dan pelayanan lain yang telah diberikan kepada pasien.
+                <br>
+                <a href="https://ti.ukdw.ac.id/ojs/index.php/eksis/article/view/383"> Handiwidjojo (2009) </a>, menuliskan bahwa Rekam medis adalah keterangan baik yang tertulis maupun terekam tentang identitas, anamnesa, penentuan fisik, laboratorium, diagnosa segala pelayanan dan tindakan medik yang diberikan kepada pasien.  Rekam medis mempunyai pengertian yang sangat luas, tidak hanya sekedar kegiatan pencatatan, akan tetapi mempunyai pengertian sebagai suatu sistem penyelenggaraan rekam medis mulai dari pencatatan selama pasien mendapatkan pelayanan medik, dilanjutkan dengan penyelenggaraan, penyimpanan serta pengeluaran berkas rekam medis dari tempat penyimpanan untuk melayani permintaan/peminjaman oleh pasien atau untuk keperluan lainnya.
+                </p>
+            </div>
+
+            <div class="collapsible_title" data-toggle="collapse" data-target="#collapse-2">Rekam Medis Elektronik</div>
+            <div class="collapsible_content collapse" id="collapse-2">
+                <p> Rekam Medis Elektronik (RME) atau rekam medis digital adalah penggunaan perangkat teknologi informasi untuk pengumpulan,penyimpanan, pengolahan serta peng-akses-an data yang tersimpan pada rekam medis pasien dirumah sakit dalam suatu sistem manajemen basis data yang menghimpun berbagai sumber datamedis. Bahkan beberapa rumah sakit modern telah menggabungkan RME dengan aplikasi Sistem Informasi Manajemen Rumah Sakit(SIMRS) yang merupakan aplikasi induk yang tidak hanyaberisi RME tetapi sudah ditambah dengan fitur-fitur seperti administrasi, billing, dokumentasi keperawatan, pelaporan dan dashboardscore card.
+                <br>
+                <a href="https://jsi.cs.ui.ac.id/index.php/jsi/article/view/544"> Andriani (2017) </a> menyebutkan bahwa Rekam Medis Elektronik (RME) merupakan sistem informasi kesehatan terkomputerisasi yang berisi data sosial dan data medis pasien, serta dapat dilengkapi dengan sistem pendukung keputusan. RME dapat membantu manajemen pelayanan kesehatan pasien dengan lebih baik
+                <br>
+                RME juga dapat diartikan sebagai lingkungan aplikasi yang tersusun atas penyimpanan dataklinis, sistem pendukung keputusan klinis, standarisasi istilah medis, entry data  terkomputerisasi, serta dokumentasi medis dan farmasi.</p>
+            </div>
+
+            <div class="collapsible_title" data-toggle="collapse" data-target="#collapse-3">Dasar Hukum</div>
+            <div class="collapsible_content collapse" id="collapse-3">
+                <p> Rekam medis merupakan kegiatan yang diwajibkan dalam penyelenggaraaan pelayanan kesehatan sebagaimana diatur dalam peraturan perundang-undangan yang menjadi dasar hukum pelaksanaan kegiatan rekam medis. Dasar hukum pelaksanaan rekam medis elektronik disamping peraturan perundang-undangan yang mengatur mengenai rekam medis, lebih khusus lagi diatur dalam Permenkes No 269 Tahun 2008 tentang  Rekam Medis pasal 2 : <br>
+                1) Rekam medis harus dibuat secara tertulis lengkap, dan jelas atau secara elektronik, <br>
+                2) Penyelenggaraan rekam medis dengan menggunakan teknologi informasi elektronik diatur lebih lanjut dengan peraturan tersendiri.</p>
+            </div>
+         
+            <div class="collapsible_title" data-toggle="collapse" data-target="#collapse-4">Kerahasiaan Data</div>
+            <div class="collapsible_content collapse" id="collapse-4">
+                <p> 
+                Informasi medis hanya dimasukan ke dalam komputer oleh personil yang berwenang.
+                Data pasien harus dijaga dengan ketat. Setiap personil tertentu hanya bisa mengakses data tertentu yang sesuai dengan menggunakan security level tertentu.
+                Tidak ada informasi yang dapat dibuka tanpa ijin pasien. Distribusi informasi medis harus dibatasi hanya kepada orang-orang yang berwenang saja. Orang-orang tersebut juga tidak diperkenankan memindah tangankan informasi tersebut kepada orang lain.
+                Data yang melampaui batas waktu penyimpanan dapat dihapus setelah memberitahukan kepada dokter dan pasiennya (atau ahli warisnya)
+                Terminal yang online hanya dapat digunakan oleh orang yang berwenang.
+                </p>
+            </div>
+
+
+            <div class="collapsible_title" data-toggle="collapse" data-target="#collapse-5">Manfaat Rekam Medis Elektronik</div>
+            <div class="collapsible_content collapse" id="collapse-5">
+                <p>
+                1) <b>Peningkatan produktivitas:</b> penggunaan sistem RME dapat mengurangi biaya. <br>
+                2) <b>Efisiensi:</b> sistem RME yang diadopsi, dapat mengurangi sumber daya yang ada untuk meningkatkan kualitas pelayanan. <br>
+                3) Mengurangi kejadian efek samping obat dalam perawatan rawat inap dan rawat jalan. <br>
+                4) Penggunaan HIT untuk perawatan pencegahan jangka pendek. Sistem RME dapat mengintegrasikan rekomendasi berbasis bukti untuk layanan pencegahan (seperti ujian screening) dengan data pasien (seperti usia, jenis kelamin, dan riwayat keluarga) untuk mengidentifikasi pasien yang membutuhkan layanan tertentu. Sistem ini dapat mengingatkan penyedia layanan untuk menawarkan layanan selama kunjungan rutin dan mengingatkan pasien untuk jadwal perawatan.<br>
+                5) Menggunakan HIT untuk penanganan penyakit kronis jangka pendek. <br>
+                Sistem RME dapat menjadi instrumen selama proses pengelolaan penyakit (untuk pasien berisiko tinggi, sistem manajemen kasus membantu koordinasi alur kerja, termasuk komunikasi diantara beberapa spesialis dan pasien)
+                 </p>
+            </div>
+
+            <div class="collapsible_title" data-toggle="collapse" data-target="#collapse-6">Isi Rekam Medis Elektronik</div>
+            <div class="collapsible_content collapse" id="collapse-6">
+                <p>Secara umum isi dari rekam medis terbagi menjadi dua kelompok yaitu:
+                <br>
+                1) <b>Data klinis atau data medis</b>, yaitu segala data tentang riwayat penyakit, hasil pemeriksaan fisik, diagnosis, pengobatan serta hasilnya, laporan dokter, perawat, hasil pemeriksaan laboratorium, rontgen, scanning, dan lain-lain-lain.
+                <br>
+                2) <b>Data demografi</b>, yaitu segala data pendukung yang tidak berhubungan secara langsung dengan data medis, seperti identitas, data social ekonomi, alamat, dan lain sebagainya. Isi dari rekam medis baik data klinis maupun data demografi  itu bersifat rahasia. Maka dari itu di setiap dokumen rekam medis selalu tertulis kata “RAHASIA”. Isi dari dokumen rekam medis itu bersifat rahasia, yaitu menjelaskan hubungan yang khusus antara pasien dengan dokter yang wajib dilindungi sesuai dengan kode etik kedokteran dan peraturan perundang-undangan yang berlaku.</p>
+
+            </div>
+
+            <div class="collapsible_title" data-toggle="collapse" data-target="#collapse-7">Pemasangan RME di Promdik.id</div>
+            <div class="collapsible_content collapse" id="collapse-7">
+                <p>Seperti yang sudah dijelaskan diatas, penggunaan RME di Promedik sangatlah mudah dan aman. Berikut langkah-langkahnya<br>
+                1) Pengguna cukup melakukan registrasi ke Promedik <br>
+                2) Melakukan pembayaran atau ujicoba secara GRATIS dengan menghubungi contact person<br>
+                4) Menunggu proses aktivasi dari administrator<br>
+                5) Klinik kamu siap dijalankan</p>
+            </div>
+
+            <div class="collapsible_title" data-toggle="collapse" data-target="#collapse-8">Kenapa harus Promedik.id?</div>
+            <div class="collapsible_content collapse" id="collapse-8">
+                <p> 
+                1) Fitur lengkap dan mudah diakses sesuai dengan kaidah penulisan<br>
+                2) Keamanan data pasien adalah prioritas bagi kami<br>
+                3) Kamu akan mendapatkan FREE maintenance dan pendampingan selama beberapa bulan<br>
+                4) Fast response<br>
+                5) Fitur yang kami tawarkan dapat di custome dengan kebutuhan kamu<br>
+                6) Dan masih banyak fitur unggulan lainnya<br>
+                </p>
+            </div>
+       </div>
+    </section>
 
     <!-- footer part start-->
 	<?php $this->view('footer'); ?>

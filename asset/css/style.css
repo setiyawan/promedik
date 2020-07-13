@@ -5433,3 +5433,22 @@ html {
   cursor: pointer;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06), 0 2px 32px 0 rgba(0, 0, 0, 0.16);
 }
+
+.qna-area {
+  background: transparent;
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 2px solid #f3f6f7;
+}
+
+.collapsible_title {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #f3f6f7;
+  font-size: 18px;
+  vertical-align: middle;
+  padding: 10px 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
