@@ -55,7 +55,7 @@
                         <div class="banner_text_iner">
                             <h5>Promedik</h5>
                             <h1>Rekam Medis Elektronik</h1>
-                            <p>Memudahkan klinik kamu dalam melakukan pencatan pasien, memantau riwayat rekam medis dan manajemen stok obat secara online</p>
+                            <p>Memudahkan klinik kamu dalam melakukan pencatatan pasien, memantau riwayat rekam medis dan manajemen stok obat secara online</p>
                             <a href="#about_us" class="btn_2">Cari tahu lebih lanjut</a>
 
                         </div>
