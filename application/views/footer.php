@@ -50,6 +50,16 @@
     </div>
 </footer>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6T4LE538N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q6T4LE538N');
+</script>
+
  <!-- footer part end-->
 <script src="<?= base_url()?>asset/js/jquery-1.12.1.min.js"></script>
 
