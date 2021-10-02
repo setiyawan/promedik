@@ -56,8 +56,7 @@
                             <h5>Promedik</h5>
                             <h1>Rekam Medis Elektronik</h1>
                             <p>Memudahkan klinik kamu dalam melakukan pencatatan pasien, memantau riwayat rekam medis dan manajemen stok obat secara online</p>
-                            <a href="#about_us" class="btn_2">Cari tahu lebih lanjut</a>
-
+                            <a href="https://wa.me/6285235060891?&text=Hi%2C%0D%0ASaya%20ingin%20mencoba%20promedik.id" target="_blank" class="btn_2">Coba GRATIS Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -309,7 +308,7 @@
 
             </div>
 
-            <div class="collapsible_title" data-toggle="collapse" data-target="#collapse-7">Pemasangan RME di Promedik.id</div>
+            <div class="collapsible_title" data-toggle="collapse" data-target="#collapse-7">Pemasangan Rekam Medis Elektronik di Promedik.id</div>
             <div class="collapsible_content collapse" id="collapse-7">
                 <p>Seperti yang sudah dijelaskan diatas, penggunaan RME di Promedik sangatlah mudah dan aman. Berikut langkah-langkahnya<br>
                 1) Pengguna cukup melakukan registrasi ke Promedik <br>
